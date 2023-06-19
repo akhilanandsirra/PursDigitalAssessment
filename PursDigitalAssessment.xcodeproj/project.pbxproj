@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E935D3262A3D6460003A09A6 /* PursDigitalAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3252A3D6460003A09A6 /* PursDigitalAssessmentApp.swift */; };
-		E935D3282A3D6460003A09A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3272A3D6460003A09A6 /* ContentView.swift */; };
+		E935D3282A3D6460003A09A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3272A3D6460003A09A6 /* HomeView.swift */; };
 		E935D32A2A3D6464003A09A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E935D3292A3D6464003A09A6 /* Assets.xcassets */; };
 		E935D32D2A3D6464003A09A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E935D32C2A3D6464003A09A6 /* Preview Assets.xcassets */; };
 		E935D3372A3D6464003A09A6 /* PursDigitalAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3362A3D6464003A09A6 /* PursDigitalAssessmentTests.swift */; };
 		E935D3412A3D6464003A09A6 /* PursDigitalAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3402A3D6464003A09A6 /* PursDigitalAssessmentUITests.swift */; };
 		E935D3432A3D6464003A09A6 /* PursDigitalAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3422A3D6464003A09A6 /* PursDigitalAssessmentUITestsLaunchTests.swift */; };
+		E935D3532A3D65C6003A09A6 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3522A3D65C6003A09A6 /* Recipe.swift */; };
+		E935D3552A3D670D003A09A6 /* NetworkingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3542A3D670D003A09A6 /* NetworkingLayer.swift */; };
+		E935D35B2A3E8077003A09A6 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D35A2A3E8077003A09A6 /* RecipeListView.swift */; };
+		E935D35D2A3E8086003A09A6 /* RecipeListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D35C2A3E8086003A09A6 /* RecipeListItem.swift */; };
+		E935D35F2A3E812C003A09A6 /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D35E2A3E812C003A09A6 /* RecipeListViewModel.swift */; };
+		E935D3612A3EB16C003A09A6 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3602A3EB16C003A09A6 /* DetailedView.swift */; };
+		E935D3652A3FA41E003A09A6 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3642A3FA41E003A09A6 /* Favorites.swift */; };
+		E935D3672A401F3C003A09A6 /* FavoritesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935D3662A401F3B003A09A6 /* FavoritesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		E935D3222A3D6460003A09A6 /* PursDigitalAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PursDigitalAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E935D3252A3D6460003A09A6 /* PursDigitalAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PursDigitalAssessmentApp.swift; sourceTree = "<group>"; };
-		E935D3272A3D6460003A09A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E935D3272A3D6460003A09A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E935D3292A3D6464003A09A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E935D32C2A3D6464003A09A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E935D3322A3D6464003A09A6 /* PursDigitalAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PursDigitalAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,14 @@
 		E935D33C2A3D6464003A09A6 /* PursDigitalAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PursDigitalAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E935D3402A3D6464003A09A6 /* PursDigitalAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PursDigitalAssessmentUITests.swift; sourceTree = "<group>"; };
 		E935D3422A3D6464003A09A6 /* PursDigitalAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PursDigitalAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E935D3522A3D65C6003A09A6 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		E935D3542A3D670D003A09A6 /* NetworkingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLayer.swift; sourceTree = "<group>"; };
+		E935D35A2A3E8077003A09A6 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		E935D35C2A3E8086003A09A6 /* RecipeListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListItem.swift; sourceTree = "<group>"; };
+		E935D35E2A3E812C003A09A6 /* RecipeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
+		E935D3602A3EB16C003A09A6 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		E935D3642A3FA41E003A09A6 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		E935D3662A401F3B003A09A6 /* FavoritesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +110,14 @@
 		E935D3242A3D6460003A09A6 /* PursDigitalAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				E935D3512A3D64DD003A09A6 /* ViewModel */,
+				E935D3502A3D64D5003A09A6 /* Model */,
+				E935D34F2A3D64CF003A09A6 /* View */,
 				E935D3252A3D6460003A09A6 /* PursDigitalAssessmentApp.swift */,
-				E935D3272A3D6460003A09A6 /* ContentView.swift */,
 				E935D3292A3D6464003A09A6 /* Assets.xcassets */,
 				E935D32B2A3D6464003A09A6 /* Preview Content */,
+				E935D3542A3D670D003A09A6 /* NetworkingLayer.swift */,
+				E935D3642A3FA41E003A09A6 /* Favorites.swift */,
 			);
 			path = PursDigitalAssessment;
 			sourceTree = "<group>";
@@ -114,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				E935D3362A3D6464003A09A6 /* PursDigitalAssessmentTests.swift */,
+				E935D3662A401F3B003A09A6 /* FavoritesTests.swift */,
 			);
 			path = PursDigitalAssessmentTests;
 			sourceTree = "<group>";
@@ -125,6 +146,33 @@
 				E935D3422A3D6464003A09A6 /* PursDigitalAssessmentUITestsLaunchTests.swift */,
 			);
 			path = PursDigitalAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		E935D34F2A3D64CF003A09A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E935D3272A3D6460003A09A6 /* HomeView.swift */,
+				E935D35A2A3E8077003A09A6 /* RecipeListView.swift */,
+				E935D35C2A3E8086003A09A6 /* RecipeListItem.swift */,
+				E935D3602A3EB16C003A09A6 /* DetailedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E935D3502A3D64D5003A09A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E935D3522A3D65C6003A09A6 /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E935D3512A3D64DD003A09A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E935D35E2A3E812C003A09A6 /* RecipeListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E935D3282A3D6460003A09A6 /* ContentView.swift in Sources */,
+				E935D3652A3FA41E003A09A6 /* Favorites.swift in Sources */,
+				E935D35B2A3E8077003A09A6 /* RecipeListView.swift in Sources */,
+				E935D35D2A3E8086003A09A6 /* RecipeListItem.swift in Sources */,
+				E935D3532A3D65C6003A09A6 /* Recipe.swift in Sources */,
+				E935D3552A3D670D003A09A6 /* NetworkingLayer.swift in Sources */,
+				E935D3612A3EB16C003A09A6 /* DetailedView.swift in Sources */,
+				E935D3282A3D6460003A09A6 /* HomeView.swift in Sources */,
 				E935D3262A3D6460003A09A6 /* PursDigitalAssessmentApp.swift in Sources */,
+				E935D35F2A3E812C003A09A6 /* RecipeListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E935D3372A3D6464003A09A6 /* PursDigitalAssessmentTests.swift in Sources */,
+				E935D3672A401F3C003A09A6 /* FavoritesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +476,14 @@
 				DEVELOPMENT_TEAM = 6393H37BK7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Purs.Recipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +508,14 @@
 				DEVELOPMENT_TEAM = 6393H37BK7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Purs.Recipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

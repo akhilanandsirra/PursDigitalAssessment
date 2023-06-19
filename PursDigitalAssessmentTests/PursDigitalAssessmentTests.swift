@@ -9,28 +9,19 @@ import XCTest
 @testable import PursDigitalAssessment
 
 final class PursDigitalAssessmentTests: XCTestCase {
+    private let decoder: JSONDecoder = {
+        let decoder = JSONDecoder()
+        return decoder
+    }()
+    
+    private let networkingLayer: GenericAPI = NetworkingLayer()
+    private let recipesURL = "https://hf-android-app.s3-eu-west-1.amazonaws.com/android-test/recipes.json"
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testDecodingSampleRecipes() throws {
+        _ = try decoder.decode(Recipes.self, from: Recipe.sampleJSON.data(using: .utf8)!)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testRequestAndDecodeRecipesAPI() async throws {
+        let _: Recipes = try await networkingLayer.request(recipesURL)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
