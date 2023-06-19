@@ -37,3 +37,16 @@ That's it! the iOS app should now be running on the selected device or simulator
 - Created unit tests using `XCTest` for decoding recipe data, networking layer, and favorites functionality.
 - Used SwiftUI's `environment object` to share the Favorites object across multiple views.
 - Collaborated with a team and followed best practices for code organization, readability, and maintainability.
+
+## Purs.Recipe App
+
+<img src="https://github.com/akhilanandsirra/PursDigitalAssessment/assets/52598978/1874e330-4a68-4426-9e6c-e16cff6f9aed" height="600"/>
+
+## Light/Dark Mode
+<img src="https://github.com/akhilanandsirra/PursDigitalAssessment/assets/52598978/aef872e1-0290-42c9-89a2-1b9826f5e555" height="600"/> <img src="https://github.com/akhilanandsirra/PursDigitalAssessment/assets/52598978/4469b91f-d6a3-40d2-b014-6e26c5cf4325" height="600"/>
+
+## Recipes with favorite filter
+<img src="https://github.com/akhilanandsirra/PursDigitalAssessment/assets/52598978/9c6bc6b7-0c3f-4c2c-acef-6540e403ca7a" height="600"/>
+
+## Detailed View
+<img src="https://github.com/akhilanandsirra/PursDigitalAssessment/assets/52598978/c1809731-cd9e-47e9-a3d7-75ce5f9965f9" height="600"/>
