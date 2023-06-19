@@ -1,7 +1,7 @@
 # PursDigitalAssessment
 This repository contains the source code for a recipe application built using SwiftUI for iOS devices. The application fetches recipe data from a network request using the recipes.json file as a data source. It allows users to view a list of recipes on the main screen along with their respective photos. Tapping on a recipe opens a detailed view (Screen 2) displaying the steps to complete the recipe. Users can also favorite/like different recipes and access a section within the app to view their favorite recipes. The project includes unit tests for the application logic and UI tests using XCUITest framework, including network stubbing for simulating different scenarios like happy path cases and error cases.
 
-Figma Designs: https://www.figma.com/file/jiKIOFYSvYMqXbkxeLA0tK/PursAssessment?type=design&node-id=0%3A1&t=9aDWPVXvtNO8r7o3-1
+Figma Designs: https://www.figma.com/file/jiKIOFYSvYMqXbkxeLA0tK/PursAssessment
 
 API: https://hf-android-app.s3-eu-west-1.amazonaws.com/android-test/recipes.json
 
